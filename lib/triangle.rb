@@ -32,5 +32,3 @@ class TriangleError < StandardError
 end
 
 end
-
-Triangle.new()
