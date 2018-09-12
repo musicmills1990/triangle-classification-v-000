@@ -15,6 +15,7 @@ def kind
     :isosceles
   elsif @side_b == @side_c && @side_b != @side_a
     :isosceles
+    
   end
 end
 
