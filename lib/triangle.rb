@@ -11,7 +11,9 @@ def kind
     :equilateral
   elsif @side_a == @side_b && @side_a != @side_c
     :isosceles
-  elsif @side_a == @side_c && @side_a != @side_c
+  elsif @side_a == @side_c && @side_a != @side_b
+    :isosceles
+  elsif @side_b == @side_c && @side_b != @side_a
     :isosceles
   end
 end
